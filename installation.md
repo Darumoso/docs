@@ -7,17 +7,6 @@ and [.bash_profile](./bash_profile.md).  You may want to set your variables in `
 
 
 ## How to install RSMAS InSAR code 
-Create an ~/accounts directory with your data download credentials (for contents see [here](./accounts_info.md)).  If you have access to the RSMAS accounts repo clone it into your /home or `$WORK2` directory  using **SSH** protocol (you need to copy the public key from your machine to github). 
-
-```
-git clone git@github.com:geodesymiami/accounts.git ~/accounts ;
-```
-
-* Go to the area where you want to install the code:
-
-```
-cd $WORK2/code
-```
 * Clone the repo and install the code (including miniconda3 python):
 ```
 command -v module &> /dev/null && module purge
