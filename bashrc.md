@@ -9,7 +9,7 @@ modules_shell="bash"
 [ -n module ] && module purge
 umask 007
 
-export USER_PREFERRED=${USER}
+export USER_PREFERRED=$USER
 module purge
 
 export CPL_ZIP_ENCODING=UTF-8
