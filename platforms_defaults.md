@@ -9,6 +9,7 @@ export JOBSCHEDULER=NONE
 export QUEUENAME=NONE
 export WORKDIR=/scratch/insarlab
 export SCRATCHDIR=/scratch
+export SAMPLESDIR=/home/${USER}/code/rsmas_insar/samples
 export REMOTE_SERVER=centos@129.114.104.223
 
 #############################################
