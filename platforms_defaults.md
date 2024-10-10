@@ -8,8 +8,8 @@ echo "sourcing ~/accounts/platforms_defaults.bash ..."
 export JOBSCHEDULER=NONE
 export QUEUENAME=NONE
 export WORKDIR=/scratch/insarlab
-export SCRATCHDIR=/scratch
-export SAMPLESDIR=/home/${USER}/code/rsmas_insar/samples
+export SCRATCHDIR=/scratch/insarlab/${USER_PREFERRED}
+export SAMPLESDIR=/home/${USER_PREFERRED}/code/rsmas_insar/samples
 export REMOTE_SERVER=centos@129.114.104.223
 
 #############################################
