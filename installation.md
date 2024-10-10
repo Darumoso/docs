@@ -3,7 +3,7 @@
 * Set `$RSMASINSAR_HOME` in your [.bashrc](./bashrc.md) 
 and [.bash_profile](./bash_profile.md).  You may want to set your variables in `~/accounts/platforms_default.bash` (see [example](./platforms_defaults.md)).
 
-* Create an ~/accounts directory with your data download credentials (for contents see [here](./accounts_info.md)). If you have access to the RSMAS accounts repo clone it into your /home or `$WORK2` directory 
+* Create an ~/accounts directory with your data download credentials (for contents see [here](./credentials.md)). If you have access to the RSMAS accounts repo clone it into your /home or `$WORK2` directory 
 
 
 ## How to install RSMAS InSAR code 
