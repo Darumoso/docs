@@ -9,6 +9,8 @@ and [.bash_profile](./bash_profile.md).  You may want to set your variables in `
 ## How to install RSMAS InSAR code 
 * Clone the repo and install the code (including miniconda3 python):
 ```
+cd ~
+mkdir code && cd code
 command -v module &> /dev/null && module purge
 git clone git@github.com:geodesymiami/rsmas_insar.git ;
 cd rsmas_insar
